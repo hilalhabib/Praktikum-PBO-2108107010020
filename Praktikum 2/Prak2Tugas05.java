@@ -1,12 +1,27 @@
-public class Program5 {
+import java.util.Scanner;
 
-public static void main(String args[]) {
-    int x;
-    for (x=20;x>=1;x=x-2){
-    if (x==6)
-    continue;
-        System.out.println(x);
+/**
+ * Created by Alpin on 05/04/2017.
+ */
+public class Program5 {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        int x ;
+        int i ;
+        //System.out.print("Masukkan angka = ");
+        //int angka = input.nextInt();
+        System.out.println(" ");
+        for (i=0;i<11;i++){
+            if(i%3==0){
+                System.out.print("");
+
+            }else{
+                x=2*i;
+                System.out.print(" "+x);
+
+            }
         }
 
     }
-}
+    }
