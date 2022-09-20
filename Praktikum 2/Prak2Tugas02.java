@@ -25,7 +25,7 @@ public class Program2 {
         else if (nilai < 51 && nilai >= 41) {
             System.out.println("Nilai Huruf = D dan Nilai Angka = 1.00 ");
         }
-        else if (nilai < 41 && nilai == 0) {
+        else if (nilai < 41) {
             System.out.println("Nilai Huruf = E dan Nilai Angka = 0 ");
         }
         else {
